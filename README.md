@@ -18,8 +18,10 @@ Métricas comparadas:
 
 ## 📺 Apresentação Executiva
 
-Os resultados foram organizados em gráficos e tabelas comparativas, com foco em **storytelling de negócios**.  
-O objetivo é apoiar decisões estratégicas sobre qualidade e padrões de produção.
+O conteúdo sintetiza as dores identificadas, os dados analisados, os principais insights e as recomendações estratégicas relacionadas à qualidade dos vinhos.
+Os resultados foram organizados em gráficos e tabelas comparativas, com foco em **storytelling de negócios**.
+
+▶️ Assistir à Apresentação Executiva no YouTube
 
 ---
 
