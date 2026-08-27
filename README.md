@@ -1,7 +1,7 @@
 # 🍷 Predição da Qualidade de Vinhos
 
 Este repositório contém a solução do Tech Challenge - Fase 2 da pós-graduação.  
-O objetivo do projeto é desenvolver um modelo de **classificação binária** capaz de prever se um vinho é de **alta qualidade (nota ≥ 7)** ou **baixa/média qualidade (nota < 7)**, com base em suas características físico-químicas.
+O objetivo do projeto é desenvolver um modelo de classificação capaz de prever a qualidade de um vinho com base em suas características físico-químicas. Para simplificar o problema, a variável de qualidade deverá ser transformada em uma **classificação binária** capaz de prever se um vinho é de **alta qualidade (nota ≥ 7)** ou **baixa/média qualidade (nota < 7)**.
 
 ---
 
