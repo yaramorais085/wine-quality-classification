@@ -34,12 +34,15 @@ O objetivo é apoiar decisões estratégicas sobre qualidade e padrões de produ
 ---
 
 ## 📁 Estrutura de Pastas do Repositório
+```
 wine-quality-classification/
 │
-├── 📁 data/          # Base de dados utilizada (WineQT.csv)
-├── 📁 notebooks/     # Notebook principal com análise e modelagem
-├── 📁 src/           # Scripts auxiliares (pré-processamento, funções de modelagem)
-├── 📁 results/       # Gráficos e métricas dos modelos
-├── requirements.txt  # Lista de bibliotecas utilizadas
-└── README.md         # Descrição do projeto
+├── data/          # Base de dados utilizada 
+├── notebooks/     # Notebook principal com análise e modelagem
+├── src/           # Scripts auxiliares (pré-processamento, funções de modelagem)
+├── results/       # Gráficos e métricas dos modelos
+├── requirements.txt  # Bibliotecas utilizadas
+└── README.md      # Descrição do projeto
+```
+
 
