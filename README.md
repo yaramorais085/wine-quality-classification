@@ -69,11 +69,11 @@ wine-quality-classification/
 │
 ├── data/              # Base de dados original (WineQT.csv)
 ├── notebooks/         # Notebooks com EDA, pré-processamento e modelagem
-├── src/               # Módulos em Python auxiliar (limpeza, engenharia e treino)
-├── results/           # Gráficos (.png) e métricas (.csv) gerados
 ├── presentation/      # Apresentação executiva em PDF e PPTX
-├── requirements.txt   # Dependências do ambiente Python
-└── README.md          # Documentação do projeto
+├── results/           # Gráficos (.png) e métricas (.csv) gerados
+├── src/               # Módulos em Python auxiliar (limpeza, engenharia e treino)
+├── README.md          # Documentação do projeto
+└── requirements.txt   # Dependências do ambiente Python
 ```
 
 
