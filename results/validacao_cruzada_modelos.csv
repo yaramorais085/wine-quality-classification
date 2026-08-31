@@ -1,0 +1,4 @@
+Modelo,Acurácia média,Precisão média,Recall médio,F1 médio,ROC-AUC médio,PR-AUC médio
+XGBoost,0.874,0.538,0.545,0.539,0.873,0.507
+Regressão Logística,0.789,0.374,0.787,0.505,0.874,0.569
+Random Forest,0.886,0.618,0.4,0.482,0.882,0.564
