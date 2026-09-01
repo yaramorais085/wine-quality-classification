@@ -43,7 +43,7 @@ A base final conta com **1.018 amostras únicas** após o tratamento e remoção
 Na etapa de **Validação Cruzada Estratificada (5-Fold)** no conjunto de treino, foram comparados três algoritmos:
 
 | Modelo | Acurácia Média | Recall | F1-Score | ROC-AUC Médio |
-| :--- | :---: | :---: | :---: | :---: | :---: |
+| :--- | :---: | :---: | :---: | :---: |
 | **XGBoost (com pesos)** 🏆 | **87,4%** | **54,5%** | **0,539** | **0,873** |
 | **Regressão Logística (Balanced)** | 78,9% | 78,7% | 0,505 | 0,874 |
 | **Random Forest (Balanced)** | 88,6% | 40,0% | 0,482 | 0,882 |
