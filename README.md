@@ -42,11 +42,11 @@ A base final conta com **1.018 amostras únicas** após o tratamento e remoção
 
 Na etapa de **Validação Cruzada Estratificada (5-Fold)** no conjunto de treino, foram comparados três algoritmos:
 
-| Modelo | Acurácia Média | Precisão Média | Recall Médio | F1-Score Médio | ROC-AUC Médio | PR-AUC Médio |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **XGBoost (com pesos)** 🏆 | **87,4%** | **53,8%** | **54,5%** | **0,539** | **0,873** | **0,507** |
-| **Regressão Logística (Balanced)** | 78,9% | 37,4% | 78,7% | 0,505 | 0,874 | 0,569 |
-| **Random Forest (Balanced)** | 88,6% | 61,8% | 40,0% | 0,482 | 0,882 | 0,564 |
+| Modelo | Acurácia Média | Recall | F1-Score | ROC-AUC Médio |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **XGBoost (com pesos)** 🏆 | **87,4%** | **54,5%** | **0,539** | **0,873** |
+| **Regressão Logística (Balanced)** | 78,9% | 78,7% | 0,505 | 0,874 |
+| **Random Forest (Balanced)** | 88,6% | 40,0% | 0,482 | 0,882 |
 
 > **Modelo Campeão:** O **XGBoost** foi selecionado por apresentar o melhor equilíbrio operacional entre encontrar os vinhos nobres e evitar falsos alarmes, conquistando o **maior F1-Score médio (0,539)** no treino.
 
@@ -54,10 +54,10 @@ Na etapa de **Validação Cruzada Estratificada (5-Fold)** no conjunto de treino
 
 O ponto de corte de probabilidade foi otimizado para **0,42** utilizando estritamente previsões *out-of-fold* do treino (sem vazamento para o teste):
 
-| Cenário | Acurácia | Precisão | Recall | F1-Score | ROC-AUC | PR-AUC |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Threshold Padrão (0,50)** | 89,0% | 58,3% | 61,8% | **0,600** | **0,915** | **0,634** |
-| **Threshold Otimizado (0,42)** | 87,8% | 53,8% | 61,8% | 0,575 | **0,915** | **0,634** |
+| Cenário | Acurácia | Precisão | Recall | F1-Score | ROC-AUC |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Threshold Padrão (0,50)** | 89,0% | 58,3% | 61,8% | **0,600** | **0,915** |
+| **Threshold Otimizado (0,42)** | 87,8% | 53,8% | 61,8% | 0,575 | **0,915** |
 
 ---
 
