@@ -48,16 +48,16 @@ Na etapa de **Validação Cruzada Estratificada (5-Fold)** no conjunto de treino
 | **Regressão Logística (Balanced)** | 78,9% | 78,7% | 0,505 | 0,874 |
 | **Random Forest (Balanced)** | 88,6% | 40,0% | 0,482 | 0,882 |
 
-> **Modelo Campeão:** O **XGBoost** foi selecionado por apresentar o melhor equilíbrio operacional entre encontrar os vinhos nobres e evitar falsos alarmes, conquistando o **maior F1-Score médio (0,539)** no treino.
+> **Modelo Campeão:** O **XGBoost** foi selecionado por apresentar o melhor equilíbrio operacional entre encontrar os vinhos nobres e evitar falsos alarmes, conquistando o **maior F1-Score (0,539)** no treino.
 
 ### 🎯 Calibração de Threshold e Avaliação no Teste (255 amostras não vistas)
 
 O ponto de corte de probabilidade foi otimizado para **0,42** utilizando estritamente previsões *out-of-fold* do treino (sem vazamento para o teste):
 
-| Cenário | Acurácia | Precisão | Recall | F1-Score | ROC-AUC |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **Threshold Padrão (0,50)** | 89,0% | 58,3% | 61,8% | **0,600** | **0,915** |
-| **Threshold Otimizado (0,42)** | 87,8% | 53,8% | 61,8% | 0,575 | **0,915** |
+| Cenário | Acurácia | Recall | F1-Score | ROC-AUC |
+| :--- | :---: | :---: | :---: | :---: |
+| **Threshold Padrão (0,50)** | 89,0% | 61,8% | **0,600** | **0,915** |
+| **Threshold Otimizado (0,42)** | 87,8% | 61,8% | 0,575 | **0,915** |
 
 ---
 
